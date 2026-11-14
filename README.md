@@ -1,15 +1,10 @@
 # PowerModeManager Homebrew Tap
 
-Install PowerModeManager on Apple Silicon Macs running macOS 15 or later:
-
-```sh
-brew install --cask powermodeapp/tap/powermodemanager
-```
-
-Or add the tap first, then install by its short name:
+Install PowerModeManager on Apple Silicon Macs running macOS 15 or later. Homebrew 7 requires explicit trust for non-official Casks; trust only this Cask, then install it:
 
 ```sh
 brew tap powermodeapp/tap
+brew trust --cask powermodeapp/tap/powermodemanager
 brew install --cask powermodemanager
 ```
 
